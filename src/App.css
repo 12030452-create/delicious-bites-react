@@ -1,0 +1,45 @@
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* FORCE EVERYTHING INSIDE NAV */
+nav a {
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: bold;
+}
+
+/* EXTRA STRONG OVERRIDE */
+a.nav-item {
+  color: white !important;
+}
+
+a.nav-item:visited {
+  color: white !important;
+}
+
+a.nav-item:active {
+  color: white !important;
+}
+
+a.nav-item:hover {
+  color: white !important;
+  background: rgba(255,255,255,0.15);
+}
+
+/* tap effect */
+.tap {
+  transition: transform 0.1s ease;
+  cursor: pointer;
+}
+
+.tap:active {
+  transform: scale(0.92);
+}
+
+/* title */
+.title {
+  color: white !important;
+  font-weight: bold;
+}
