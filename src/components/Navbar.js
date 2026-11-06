@@ -26,8 +26,11 @@ const styles = {
     flexWrap: "wrap"
   },
   links: {
-    display: "flex",
-    gap: "15px"
+  
+  display: "flex",
+  flexWrap: "wrap",
+  gap: "15px"
+
   }
 };
 
